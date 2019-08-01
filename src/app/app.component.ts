@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ResumeApp';
+  appName = 'My Awesome App';
+
+  // isNavClick = true
+
+  // toggleClick(){
+  //   this.isNavClick = !this.isNavClick
+  // }
 }

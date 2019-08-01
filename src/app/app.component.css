@@ -1,0 +1,47 @@
+#top-nav {
+    width:75%;
+    height: 80px;
+    background: white;
+    margin-left:10%;
+    margin-right: 10%;
+    /* margin-right: 50px; */
+}
+
+#top-nav > *  {
+    display:inline-block;
+    width:15%;
+    height:40px;
+    padding:20px;
+    text-align: center;
+}
+
+#content{
+    width:75%;
+    height: 800px;
+    margin-left:10%;
+    margin-right: 10%;
+    background: rgb(223,223,223);
+    padding-left:25px;
+    padding-top: 50px;
+}
+
+.row div{
+    display:inline-block;
+}
+
+.active {
+    background-color :navy;
+    color:white;
+}
+
+#left-content{
+    width:20%;
+    height:100%;
+    margin-right: 25px;
+    background-color:white;
+}
+#right-content{
+    width:60%;
+    height:100%;
+    background-color:white;
+}
